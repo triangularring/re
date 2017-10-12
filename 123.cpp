@@ -1,4 +1,4 @@
-#include <iostream>
+﻿#include <iostream>
 using namespace std;
 
 struct Elem
@@ -45,6 +45,9 @@ List::~List()
 {
    // Удаляем все элементы
    DelAll();
+}
+char* hui(int dlina){
+	return "vash hui dliny:" + dlina;
 }
 void List::AddHead(int n)
 {
